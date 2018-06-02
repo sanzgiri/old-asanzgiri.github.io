@@ -27,12 +27,10 @@ sudo mv chromedriver /usr/local/bin
 * Use `https://github.com/boxabirds/fastai-helpers` to create new dataset
 ```python
 wget https://raw.githubusercontent.com/boxabirds/fastai-helpers/master/training-data-generator.py
-
 ```
 This package uses `https://github.com/hardikvasa/google-images-download`
 
 * You can use this as follows to download 200 images of `horse` and `hippo` in subdirectory `data\horsehippo` with train-valid split of 80-20 (note no spaces after the comma between category names, supports > 2 categories):
- 
  `python training-data-generator.py -d data/horsehippo -s "horse,hippo" -q 200 -v 20`
 
 * A faster option to generate a dataset is to use `https://github.com/prairie-guy/ai_utilities`. A sample workflow would be as follows: 
