@@ -33,17 +33,15 @@ This package uses `https://github.com/hardikvasa/google-images-download`
 
 * You can use this as follows to download 200 images of `horse` and `hippo` in subdirectory `data\horsehippo` with train-valid split of 80-20 (note no spaces after the comma between category names, supports > 2 categories):
  
- `python training-data-generator.py -d data/horsehippo -s "horse,hippo" -q 200 -v 20`
+```python training-data-generator.py -d data/horsehippo -s "horse,hippo" -q 200 -v 20```
 
 * A faster option to generate a dataset is to use `https://github.com/prairie-guy/ai_utilities`. A sample workflow would be as follows: 
 ```python
---- setup
 git clone https://github.com/prairie-guy/ai_utilities.git
 cd ai_utilities/
 tar xvzf geckodriver-v0.19.1-linux64.tar.gz
 sudo mv geckodriver /usr/local/bin
 
---- create dataset
 python image_download.py 'horse' 200 --engine 'google'
 python image_download.py 'hippo' 200 --engine 'google'
 mv dataset horsehippo2
