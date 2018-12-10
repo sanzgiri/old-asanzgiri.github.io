@@ -10,6 +10,7 @@ How this blog is set up:
 
 * To create a new post, add a file to the `_posts` directory that is named in the format `YYYY-MM-DD-name-of-post.md`. This can be done directly on github. The top of the .md file should be:
 <br>
+<br>
 
 ```
 ---
