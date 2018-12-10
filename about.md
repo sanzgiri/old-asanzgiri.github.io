@@ -38,7 +38,7 @@ git push origin master
 
 * Blog settings are in the `_config.yml` file.
 
-* I use netlify to serve the blog from github. Netlify has been configured to use the custom domain `hoopedondata.com`.
+* I use netlify to serve the blog from github. Netlify has been configured to use the custom domain `hoopedondata.com` and can be seen here: <https://app.netlify.com/sites/boring-jones-25e6e2/settings/domain>. This domain has been registered with GoDaddy and you have to setup a CNAME for the netlify domain by going to the DNS management console at GoDaddy: <https://dcc.godaddy.com/manage/HOOPEDONDATA.COM/dns>
 
 ---
 <br>
