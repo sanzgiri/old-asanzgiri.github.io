@@ -9,6 +9,7 @@ How this blog is set up:
 * Source Code is at <https://github.com/sanzgiri/asanzgiri.github.io>. 
 
 * To create a new post, add a file to the `_posts` directory that is named in the format `YYYY-MM-DD-name-of-post.md`. This can be done directly on github. The top of the .md file should be:
+<br>
 ```
 ---
 title: Name of Post
@@ -35,7 +36,8 @@ git push origin master
 * I use netlify to serve the blog from github. Netlify has been configured to use the custom domain `hoopedondata.com`.
 
 ---
-
+<br>
+<br>
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
