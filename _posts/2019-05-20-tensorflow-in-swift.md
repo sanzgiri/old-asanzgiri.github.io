@@ -10,7 +10,7 @@ excerpt: Tensorflow-Swift
 
 * Lauching a Jupyter notebook for Swift 
 ```
-git clone https://github.com/google/swift-jupyter.git
+git clone <https://github.com/google/swift-jupyter.git>tgi
 cd swift-jupyter
 docker build -f docker/Dockerfile -t swift-jupyter .
 docker run -p 8888:8888 -it --cap-add SYS_PTRACE -v ~/swift-notebooks:/notebooks swift-jupyter
