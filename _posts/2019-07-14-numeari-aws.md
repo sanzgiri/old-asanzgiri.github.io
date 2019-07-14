@@ -32,9 +32,9 @@ numerai compute status
 numerai compute logs
 ```
 
-* AWS job is scheduled to run daily at 15:35 UTC: https://console.aws.amazon.com/ecs/home?region=us-east-1#/clusters/numerai-submission-ecs-cluster/scheduledTasks/numerai-daily
+* AWS job is scheduled to run daily at 15:35 UTC: <https://console.aws.amazon.com/ecs/home?region=us-east-1#/clusters/numerai-submission-ecs-cluster/scheduledTasks/numerai-daily>
  
-* Check AWS logs here: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logStream:group=/fargate/service/numerai-submission;streamFilter=typeLogStreamPrefix
+* Check AWS logs here: <https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#logStream:group=/fargate/service/numerai-submission;streamFilter=typeLogStreamPrefix>
 
-* Link to forums: https://community.numer.ai/channel/compute?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website
+* Link to forums: <https://community.numer.ai/channel/compute?utm_source=sendgrid.com&utm_medium=email&utm_campaign=website>
 
